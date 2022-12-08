@@ -1,0 +1,38 @@
+body {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+.message {
+	border-radius: .5rem;
+	padding: 30px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	max-width: 420px;
+}
+
+.message__title {
+	font-size: 24px;
+	line-height: 28px;
+	margin: 0 0 20px;
+}
+
+.message__details {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto auto;
+	gap: 20px;
+	padding: 0 0 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	font-size: 14px;
+}
+
+.message__body {
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	margin-bottom: 20px;
+	line-height: 24px;
+}
